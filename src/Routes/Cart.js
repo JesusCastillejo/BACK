@@ -14,10 +14,10 @@ routerCart.get("/carts", getCartsController);
 
 routerCart.get("/cart/:id", getCartByIdController);
 
-routerCart.get("/cart-user/:username", getCartByUsernameController);
+routerCart.get("/cart-user/:name", getCartByUsernameController);
 
 routerCart.post("/cart", addProductController);
-routerCart.post("/cart/:username", addProductToCartController);
+routerCart.post("/cart/:name", addProductToCartController);
 
 routerCart.delete("/cart/:id", deleteCartByIdController);
 
