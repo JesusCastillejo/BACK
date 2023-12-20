@@ -1,6 +1,6 @@
-import server from "./src/Server/Server.js";
+import server from "./Server/Server.js";
 import { config } from "dotenv";
-import connect from "./src/DataBase/Conf.js";
+import connect from "./DataBase/Conf.js";
 
 config()
 connect()

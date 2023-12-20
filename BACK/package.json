@@ -2,12 +2,12 @@
   "name": "integrador_3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./Main.js",
-    "start": "node ./Main.js"
+    "dev": "nodemon src/Main.js",
+    "start": "node src/Main.js"
   },
   "keywords": [],
   "author": "",
